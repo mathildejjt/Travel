@@ -1,0 +1,311 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+/* box sizing / borderbox = qd tu fais un padding de 40px a gauche et droite doit être inclus ds 300px, comme ça pas besoin de calculer */
+font-weight: normal;
+font-size: 10px;
+
+}
+/* le symbole étoile veut dire "tout"*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+}
+
+header ul {
+    display: flex;
+    gap: 64px;
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    font-size: 17px;
+    color: #181E4B;
+}
+
+ header .SignUp {
+    padding: 10px 15px;
+    border: 1px solid #212832;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+
+}
+
+header ul li a {
+    font-size: 17px;
+    text-decoration: none;
+    color: #212832;
+}
+
+.chaveron {
+    display: flex;
+    justify-content: right;
+}
+
+h1 {
+    font-family: 'Volkhov', sans-serif;
+    font-size: 50px;
+    color: #181E4B;
+    font-weight: bolder;
+   
+}
+
+.main-picture {
+    display: flex;
+    width: 50%;
+}
+
+.main h2 {
+    color: #DF6951;
+}
+
+.main-picture .girl_picture {
+    width: 100%;
+
+}
+
+.main h1 {
+    font-size: 87px;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #DF6951;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #5E6282;
+}
+
+.main {     
+padding: 50px 10%;
+display: flex ;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+
+}
+.buttons {
+    display: flex;
+    gap: 30px ;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.FOM {
+width: 160px;
+height: 50px;
+
+}
+
+body {
+background: url(./images/tache-jaune.png), url(./images/Ellipse_violette.png);
+background-repeat: no-repeat, no-repeat;
+background-position: top right, top left;
+}
+
+.main_text {
+    width: 50%;
+}
+
+.main_picture {
+    width: 50%;
+}
+
+.girl_picture {
+    width: 100%;
+}
+
+.category_title h1 {
+   letter-spacing: 0px;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.category_title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    background: url(./images/Deco_croix.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 10%;
+   
+}
+
+h2 {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #5E6282;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+
+.cards {
+    padding: 100px 10%;
+    display: flex;
+    align-items: center;
+    gap: 75px;
+    z-index: 1;
+    position: absolute;
+    
+}
+
+.cards div {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    border-radius: 36px;
+    height: 400px;
+
+}
+
+
+.cards img  {
+    width: 30%;
+    display: flex;
+
+}
+
+h3 {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #1E1D4C;
+}
+
+.plane img {
+    width: 70px;
+
+}
+
+.plane {
+    background: url(./images/Rectangle_shadow.png);
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position: center top;
+}
+
+.carre_rouge {
+    z-index: -1;
+    position: absolute;
+    width: 350px;
+    margin-left: 150px;
+    margin-top: 175px;
+    
+}
+
+.destinations {
+    padding-top: 500px;
+    text-align: center;
+}
+
+.cards_destinations {
+    padding: 50px 10% ;
+    display: flex;    
+}
+
+.cards_destinations div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 36px;
+}
+
+.cards_destinations img {
+    width: 400px;
+}
+
+.ressort img {
+    z-index:-1;
+    position: absolute;
+    width: 90px;
+    margin-left: 1150px;
+    margin-top: 100px;
+}
+
+.full_text {
+padding: 50px 10%;
+display: flex;
+flex-direction: column;
+}
+
+.ImagetText {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.text_vignettes {
+    display: flex;
+    flex-direction: column;
+}
+
+.full_text {
+    display: flex;
+    justify-content: left;
+    gap: 30px;
+}
+
+ .Book {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: -200px;
+}
+
+.testimonials {
+    padding: 50px 10%;
+    display: flex;
+}
+
+.testimonials_text img {
+padding-top: 40px;
+}
+
+.blackandwhite {
+-webkit-filter: grayscale();
+}
+
+.logos_marques {
+    margin-top: -250px;
+    padding: 10px 10%;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+
+.axon_jetstar {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.expedia_logo {
+    padding-top: 150px;
+}
+
+.qantas_alitalia {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+
+}
